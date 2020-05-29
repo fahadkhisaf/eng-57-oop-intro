@@ -11,10 +11,10 @@ class Dog():
             # we should give it name... possibly Max :)
 
     # refers to the instance of the object
-    def __init__(self, name = 'Mad Max'):
+    def __init__(self, age, name = 'Mad Max'):
         # setting attribute name to instances of Dog class
         self.name = name
-        self.age = 17
+        self.age = age
         self.paws = 4
         self.fur = 'luxurious black and grey'
 

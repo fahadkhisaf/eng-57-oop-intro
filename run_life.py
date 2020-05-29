@@ -4,8 +4,8 @@
 from dog_class import *
 
 # Initialize a Dog object -
-max_dog_instance = Dog()
-ringo_dog_instance = Dog('Ringo')
+max_dog_instance = Dog(2)
+ringo_dog_instance = Dog(10, 'Ringo')
 
 print(max_dog_instance)
 

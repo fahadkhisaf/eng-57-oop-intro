@@ -5,6 +5,8 @@ Why OOP.
 
 How to OOP
 
+### Learning outcomes: 
+- 
 
 ### Class
 What is a class? A class is like a cookie cutter or blue print for objects but not the object itself. 
