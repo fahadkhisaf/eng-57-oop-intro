@@ -55,5 +55,27 @@ One of the core reasons to use OOP, because it means you write less code. In rea
 
 #### Polymorthism
 - what is class polymorthism?
-- what is method polymorthism? 
+- what is method polymorthism?
 
+
+#### Encapsulation 
+The ability to limit access from the exterior to method and or attributes.
+Hence, making them 'private'. 
+
+```python
+class Dog():
+
+    def __init__(self, dog_name, attri2):
+        self.name = attri1,
+        self.attribute_2 = attri2,
+        self.dog_years = 0,
+        self.human_years = 0
+
+    def dog_birthday_incrementer(self):
+        # complex block
+        #  celebrate the dog's bithday 
+        # update human year
+        # update dog years
+        print(f'happy birthday! You are a GOOD BOY! GOOD BOY {self.name}!')
+        return self.dog_years 
+```
