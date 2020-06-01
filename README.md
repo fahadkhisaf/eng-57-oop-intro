@@ -21,18 +21,35 @@ So in the above example, .eat_cookie() could be a method inside the class Cookie
 
 
 ### Instance
+What is an instance? 
 
 ### syntax
+```python
+class Dog():
 
+    def __init__(self, attri1, attri2, optional_attri='default'):
+        self.attribute_1 = attri1,
+        self.attribute_2 = attri2,
+        self.attribute_3 = optional_attri,
+
+    def method_name(self, arg1):
+        # complex block
+        arg1 += arg1 + 1 
+        return  arg1 
+```
 
 ### Convention
 
 
-## 4 Pillars
+## OOP 4 Pillars
+
+### Inheritance
+The ability of a subclass to inherit all the behaviour and method from parent class. 
+One of the core reasons to use OOP, because it means you write less code. In reality this is debatable, has you end-up having to adapt a lot of methods. It also depends how good of a coder you are and ability to abstract effectivly. 
 
 ### Abstration 
 - good naming
-- good documentation 
+- good documentation - mention what methods and how to use them
 - use of inheritance 
 
 
