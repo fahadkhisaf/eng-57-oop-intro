@@ -1,7 +1,8 @@
 # Abstract and create the class dog
 
+from animal_class import *
 
-class Dog():
+class Dog(Animal):
 
     # this is a special method
     # it comes defined either was but we can re-write it
@@ -26,17 +27,9 @@ class Dog():
     def bark_print(self):
         print('woof, woof!')
 
-    def eat(self, food):
-        return 'Nom, nom, non, nom ' + food.lower()
-
-    def sleep(self):
-        return 'zzZZzzZZz ZZzzzZZzz'
-
     def fetch(self):
         return "WHERE THAT BALL AT? --- I'ma get that ball!!"
 
-    def potty(self):
-        return "UHHHHH!!! AHAHHHH! 0_o UUHHH!!  ..... O_O .. :) o.o ..  "
 
 
 
